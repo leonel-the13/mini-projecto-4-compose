@@ -3,7 +3,7 @@ spring:
     name: mini-projecto-4-compose
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/neondb
+    url: jdbc:postgresql://database:5432/mydb
     username: postgres
     password: 1234
     driver-class-name: org.postgresql.Driver
@@ -21,4 +21,4 @@ jwt:
   expiration: 864000000
 
 server:
-  port: 3000
+  port: 8080
